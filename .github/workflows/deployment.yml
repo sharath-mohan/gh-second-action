@@ -2,6 +2,9 @@ name: Deploy Project
 
 on: push
 
+# adding mulltiple events triggers
+#on: [push, workflow_dispatch]
+
 jobs:
   test:
     runs-on: ubuntu-latest
